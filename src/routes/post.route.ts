@@ -19,4 +19,6 @@ PostRouter.put("/updatePost", updatePost);
 
 PostRouter.delete('/deletePost', deletePost)
 
+// PostRouter.get('/', getAllPost) This is for demo purpose..
+
 export default PostRouter;
