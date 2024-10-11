@@ -9,7 +9,6 @@ const response: any = {
 export const addPost = async (req: Request, res: Response) => {
   try {
     const data = req.body;
-    console.log(data)
     const result = await PostService.addPost(data);
     response.data = result;
     res.status(201).send(response);
